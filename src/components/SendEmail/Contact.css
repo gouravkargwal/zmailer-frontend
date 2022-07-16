@@ -1,0 +1,53 @@
+.ant-drawer-body {
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+}
+
+.contact {
+  border-radius: 5px;
+  width: 60%;
+  color: #474554;
+}
+
+/* FORM STYLES */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact form label {
+  font-size: 18px;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea,
+.contact form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aeaeae;
+  background: white;
+}
+.contact form button:focus-visible,
+.contact form input:focus-visible,
+.contact form textarea:focus-visible,
+.contact form select:focus-visible {
+  outline: none;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #92bde7;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
