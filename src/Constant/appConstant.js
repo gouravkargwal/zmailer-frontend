@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === "development") {
   };
 } else {
   exports.default = {
-    baseURL: "https://mail.cashbite.in/api/v1/mail",
-    authURL: "https://mail.cashbite.in/auth/",
+    baseURL: "https://zmailer-backend.herokuapp.com/api/v1/mail",
+    authURL: "https://zmailer-backend.herokuapp.com/auth/",
   };
 }
